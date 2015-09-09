@@ -1,0 +1,20 @@
+<div class="container" ng-controller="homeController as vm">
+	<form class="slightly-smaller-container">
+		<h1>Text Match</h1>
+		<div class="form-group">
+    		<label for="textmatch_text_input">Text</label>
+    		<textarea  class="form-control" id="textmatch_text_input" placeholder="Text" ng-model="vm.text"/>
+  		</div>
+  		<div class="form-group">
+    		<label for="textmatch_subtext_input">Subtext</label>
+    		<input type="text" class="form-control" id="textmatch_subtext_input" placeholder="Subtext" ng-model="vm.subtext"/>
+  		</div>
+  		<div class="form-group">
+  			<button type="submit" class="btn btn-primary btn-block" ng-click="vm.match()">Match</button>
+		</div>
+  		<div class="form-group" style="margin-top:10px;">
+    		<label for="textmatch_result_input">Result</label>
+    		<input type="text" class="form-control" id="textmatch_result_input" disabled="disabled" ng-model="vm.result"/>
+  		</div>
+	</form>
+</div>

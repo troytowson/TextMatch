@@ -1,0 +1,23 @@
+{
+  "name": "eviivo",
+  "version": "0.0.1",
+  "authors": [
+    "troytowson <troyftowson@gmail.com>"
+  ],
+  "description": "TextMatch",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/web/wwwroot/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.5",
+    "angular-ui-router": "~0.2.15"
+  }
+}
